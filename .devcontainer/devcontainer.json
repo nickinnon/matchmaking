@@ -1,0 +1,15 @@
+{
+    "name": "matchmaking-dev",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "api",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "dbaeumer.vscode-eslint", 
+          "esbenp.prettier-vscode"
+        ]
+      }
+    }
+  }
+  

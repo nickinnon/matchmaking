@@ -1,0 +1,15 @@
+{
+  "name": "Matchmaker Dev Container",
+  "dockerComposeFile": "../../.devcontainer/docker-compose.yml",
+  "service": "matchmaker",
+  "workspaceFolder": "/workspace",
+  "runServices": ["matchmaker"],
+  "customizations": {
+    "vscode": {
+      "settings": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
